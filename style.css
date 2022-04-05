@@ -2,28 +2,72 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
-li, a, button{
+
+li,
+a,
+button {
     font-weight: 500;
     font-size: x-large;
-    color:blueviolet;
+    color: blueviolet;
     text-decoration: none;
     list-style: none;
 }
+
 header {
     display: inline;
-    /* justify-content: flex-end; */
     align-items: center;
-    /* padding: 30px 10%; */
+    padding: 30px 10%;
+}
+nav{
+    display: flex;
+    margin: auto;
+    float: right;
+}
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px;
+    /* align-items: flex-start */
+    /* float: right; */
 }
 
-.menu li {
-        display: inline;
-        list-style-type: none;
-        margin: 5px;
-        padding: 2px;
-        /* align-items: flex-start */
-        float: right;
-    
+.logo {
+    cursor: pointer;
+}
+
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(95, 27, 27);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(95, 27, 27);
+}
+
+.row{
+    width: 80%;
+    margin: auto;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 600px;
+  }  
+
+.row {
+    display: flex;
+}
+
+.column img {
+    width: 400px;
+    height: 500px;
 }
