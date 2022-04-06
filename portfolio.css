@@ -1,0 +1,39 @@
+.pcolumn {
+    float: left;
+    width: 30%;
+}
+
+.pcolumn {
+    margin: auto;
+}
+
+.pcolumn img {
+    padding: 20px;
+}
+
+.pcolumn h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.phead {
+    color: white;
+    padding: 10px;
+}
+
+.portfolio1 {
+    background-color: #FF729F;
+}
+
+.portfolio2 {
+    background-color: #383B53;
+}
+
+.portfolio3 {
+    background-color: #92DCE5;
+}
+
+body {
+    height: 100vh;
+    background-image: url("backgroundfolio.jpg");
+}
