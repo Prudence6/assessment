@@ -69,6 +69,8 @@ nav {
 }
 
 body {
+    font-family: Arial;
+    padding: 20px;
     background-image: url("backgroundindex.jpg");
 }
 
@@ -137,30 +139,20 @@ input[type=submit]:hover {
 }
 
 
-body {
-    font-family: Arial;
-    padding: 20px;
-    background: black;
-  }
-  
- 
-  .header {
+.header {
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: black;
-  }
-  
 
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
+}
+
+
+.card {
+    background-color: royalblue;
     padding: 20px;
-  }
-  
-  
-  .card {
-     background-color: royalblue;
-     padding: 20px;
-     margin-top: 20px;
-  }
+    margin-top: 20px;
+}
+
+.report {
+    height: 600px;
+}
