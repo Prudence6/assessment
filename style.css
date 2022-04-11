@@ -69,6 +69,8 @@ nav {
 }
 
 body {
+    font-family: Arial;
+    padding: 20px;
     background-image: url("backgroundindex.jpg");
 }
 
@@ -126,7 +128,7 @@ input[type=submit]:hover {
 }
 
 .contact-text {
-    font-size: 140px;
+    font-size: 130px;
     color: white;
     padding-top: 100px;
     text-align: center;
@@ -134,4 +136,23 @@ input[type=submit]:hover {
 
 .contact-topic {
     color: white;
+}
+
+
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
+.card {
+    background-color: royalblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.report {
+    height: 600px;
 }
