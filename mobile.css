@@ -71,3 +71,15 @@ nav {
 .contact-text {
     font-size: 60px;
 }
+
+.header {
+    font-size: 15px;
+}
+
+.card img {
+    height: 250px;
+}
+
+.report {
+    height: 2400px;
+}
