@@ -46,9 +46,9 @@ nav {
 
 .column {
     float: left;
-    width: 50%;
+    width: 45%;
     padding: 10px;
-    height: 600px;
+    height: 500px;
 }
 
 .row {
@@ -65,13 +65,12 @@ nav {
 }
 
 .index2 {
-    background-color: rgb(97, 42, 165);
+    /* background-color: rgb(97, 42, 165); */
 }
 
 body {
     font-family: Arial;
-    padding: 20px;
-    background-image: url("backgroundindex.jpg");
+    background-image: url("blogbackground.jpg");
 }
 
 h2 {
@@ -79,7 +78,7 @@ h2 {
 }
 
 .skills {
-    padding-top: 450px;
+    padding-top: 300px;
     margin: auto;
     text-align: center;
 }
@@ -155,4 +154,8 @@ input[type=submit]:hover {
 
 .report {
     height: 600px;
+}
+
+.off {
+    display: none;
 }
